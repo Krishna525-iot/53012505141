@@ -1,0 +1,40 @@
+# STM32CubeIDE specific
+/.settings/
+/.git/
+/*.launch
+*.cproject
+*.project
+*.metadata/
+*.idea/
+
+# Build output directories
+/Debug/
+/Release/
+/Debug_ARM/
+/Release_ARM/
+
+# Debug files
+*.d
+*.swp
+*.swo
+*.swp
+*.log
+
+# Eclipse IDE specific
+/.cproject
+/.project
+/.settings/
+/.classpath
+
+# Object files
+*.o
+*.a
+*.so
+
+# STM32CubeMX generated files
+/STM32CubeIDE_Configuration/
+/CubeMX_Config/
+
+# Keep .elf and .bin files
+!*.elf
+!*.bin
