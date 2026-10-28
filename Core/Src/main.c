@@ -24,6 +24,7 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>      // Needed for printf
 #include "gesture.h"  // Ensure this header is included
+#include "eeprom.h"
 //#include "inactivity_manager.h"
 
 //#include "gesture.h"
@@ -184,6 +185,7 @@ void CheckButtonLongPress(void) {
             buttonPressStartTime = HAL_GetTick();
         } else if (buttonPressed == 1) {
             if ((HAL_GetTick() - buttonPressStartTime) >= LONG_PRESS_DURATION) {
+                button_states[4].long_press_detected = 1;  // DEPTH: suppress short press (ENDO toggle) on release
                 depth_long_press();
                 buttonPressed = 2;
             }
@@ -469,6 +471,7 @@ int main(void)
   MX_I2C1_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  EEPROM_Init();  // Restore saved run time from EEPROM
 //  InactivityManager_CheckAndAutoOff();
   /* USER CODE END 2 */
 

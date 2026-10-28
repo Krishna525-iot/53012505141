@@ -116,7 +116,7 @@ void display_uptime_and_return(void)
 
   // Clear LCD and display the uptime
   LCD_Clear();
-  lcd_puts(1, 1, (int8_t *)"--Run Time Hours--");
+  lcd_puts(1, 1, (int8_t *)"--RunTime Hours--");
   lcd_puts(2, 5, (int8_t *)time_buffer);
 
   // Hold display for 2 seconds
