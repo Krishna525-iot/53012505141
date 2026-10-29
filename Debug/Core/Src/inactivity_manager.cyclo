@@ -1,0 +1,3 @@
+../Core/Src/inactivity_manager.c:14:6:InactivityManager_Init	1
+../Core/Src/inactivity_manager.c:20:6:InactivityManager_NotifyActivity	1
+../Core/Src/inactivity_manager.c:26:6:InactivityManager_CheckAndAutoOff	1

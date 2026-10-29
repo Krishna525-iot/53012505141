@@ -1,0 +1,8 @@
+../Core/Src/eeprom.c:16:23:GetEEPROMAddress	1
+../Core/Src/eeprom.c:24:19:EEPROM_WriteByte	1
+../Core/Src/eeprom.c:36:19:EEPROM_ReadByte	1
+../Core/Src/eeprom.c:47:19:EEPROM_WriteWord	1
+../Core/Src/eeprom.c:67:19:EEPROM_ReadWord	2
+../Core/Src/eeprom.c:89:19:SaveUptimeToEEPROM	1
+../Core/Src/eeprom.c:94:19:LoadUptimeFromEEPROM	1
+../Core/Src/eeprom.c:103:6:EEPROM_Init	4

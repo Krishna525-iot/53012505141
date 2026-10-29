@@ -1,0 +1,3 @@
+../Core/Src/button_manager.c:21:6:ButtonManager_Init	1
+../Core/Src/button_manager.c:32:6:ButtonManager_HandleInterrupt	8
+../Core/Src/button_manager.c:81:6:ButtonManager_CheckLongPress	5

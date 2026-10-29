@@ -1,0 +1,10 @@
+../Core/Src/screen2.c:28:9:get_total_menu_items	8	static
+../Core/Src/screen2.c:35:6:init_second_screen	8	static
+../Core/Src/screen2.c:70:6:handle_second_screen_input	32	static
+../Core/Src/screen2.c:161:6:toggle_focus_state	8	static
+../Core/Src/screen2.c:180:6:toggle_camera_state	8	static
+../Core/Src/screen2.c:187:6:load_focus_options	32	static
+../Core/Src/screen2.c:195:6:load_initial_focus	8	static
+../Core/Src/screen2.c:205:6:reset_focus_options	16	static
+../Core/Src/screen2.c:211:6:toggle_focus_option	24	static
+../Core/Src/screen2.c:222:6:set_camera_enabled	16	static

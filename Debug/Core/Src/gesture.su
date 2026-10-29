@@ -1,0 +1,7 @@
+../Core/Src/gesture.c:30:9:init_gesture	24	static
+../Core/Src/gesture.c:104:9:gestureFIFOAvailable	24	static
+../Core/Src/gesture.c:121:8:readGesture	16	static
+../Core/Src/gesture.c:130:9:handleGesture	176	static
+../Core/Src/gesture.c:196:9:gestureAvailable	24	static
+../Core/Src/gesture.c:229:9:write8	32	static
+../Core/Src/gesture.c:237:9:read8	40	static

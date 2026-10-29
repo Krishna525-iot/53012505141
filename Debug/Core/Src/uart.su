@@ -1,0 +1,9 @@
+../Core/Src/uart.c:16:6:UART_Packet_Init	16	static
+../Core/Src/uart.c:23:6:HAL_UART_RxCpltCallback	24	static
+../Core/Src/uart.c:82:10:UART_GetPacketBuffer	8	static
+../Core/Src/uart.c:88:9:UART_GetPacketLength	8	static
+../Core/Src/uart.c:95:10:getRxBuffer	8	static
+../Core/Src/uart.c:100:9:isDataReady	8	static
+../Core/Src/uart.c:104:6:resetDataReady	8	static
+../Core/Src/uart.c:108:6:setDataReady	8	static
+../Core/Src/uart.c:113:6:UART_Send	16	static

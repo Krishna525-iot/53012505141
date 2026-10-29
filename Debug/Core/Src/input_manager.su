@@ -1,0 +1,8 @@
+../Core/Src/input_manager.c:21:6:update_cursor	8	static
+../Core/Src/input_manager.c:30:6:enqueue_event	24	static
+../Core/Src/input_manager.c:46:5:dequeue_event	16	static
+../Core/Src/input_manager.c:58:6:process_input_events	16	static
+../Core/Src/input_manager.c:79:6:handle_input	16	static
+../Core/Src/input_manager.c:89:6:debugQueueState	16	static
+../Core/Src/input_manager.c:98:10:get_system_uptime_sec	8	static
+../Core/Src/input_manager.c:103:6:display_uptime_and_return	48	static
